@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient( 90deg, crimson 0%, white 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+.container {
+    border-radius: 10px;
+    border: 2px solid #ffff;
+    padding: 30px 40px;
+    width: 40%;
+    min-width: 500px;
+}
+  
+  .newTaskContainer {
+    background-color: #ffff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+  }
+  
+  .newTaskContainer input {
+    flex: 3;
+    font-size: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.801);
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+  }
+  
+  .newTaskContainer input:focus {
+    outline: none;
+    border-color: black;
+  }
+  
+  .newTaskButton {
+    flex: 1;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100%;
+    font-size: 1rem;
+    padding: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  
+  .tasksContainer {
+    background-color: #ffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+  }
+  
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .taskItem i {
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  .taskItem i:hover {
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+/* 
+  .div {
+    background-color: crimson;
+  } */
